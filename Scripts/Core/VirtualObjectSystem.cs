@@ -102,9 +102,9 @@ namespace ViMantic
         private IEnumerator ProcessMsgs()
         {
 
-            Rect rect = new Rect(0, 0, 640, 480);
-            Texture2D image = new Texture2D(640, 480, TextureFormat.RGB24, false);
-            RenderTexture renderTextureMask = new RenderTexture(640, 480, 24);
+            Rect rect = new Rect(0, 0, 1200, 680);
+            Texture2D image = new Texture2D(1200, 680, TextureFormat.RGB24, false);
+            RenderTexture renderTextureMask = new RenderTexture(1200, 680, 24);
             while (Application.isPlaying)
             {
 
